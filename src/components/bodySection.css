@@ -1,0 +1,49 @@
+#parent {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.child1 {
+  width: 50vw;
+  height: 100vh;
+  border-right: 1px solid gainsboro;
+}
+.movieBox {
+  border-bottom: 1px solid gainsboro;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.movieBox:hover {
+  cursor: pointer;
+  background-color: lightgoldenrodyellow;
+}
+.episode {
+  color: gray;
+}
+.ep-name {
+  color: lightcoral;
+}
+.child2 {
+  width: 50vw;
+  height: 100vh;
+  border-left: 1px solid gainsboro;
+  padding: 17px;
+}
+#errorHead {
+  color: #eb261c;
+  font-weight: bolder;
+  text-align: center;
+}
+@media only screen and (max-width: 867px) {
+  .movieBox {
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: lightgray;
+  }
+  .child2 p {
+    text-align: center;
+  }
+}

@@ -1,0 +1,25 @@
+#header {
+  border-bottom: 2px solid gainsboro;
+  padding: 5px;
+  background-color: #f0f0f0;
+}
+#sort {
+  border-bottom: 1px solid black;
+  padding: 2px;
+}
+#cancel-btn:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+#sort span {
+  margin: 15px;
+}
+.sortingType {
+  padding: 5px;
+  border-bottom: 1px solid gainsboro;
+}
+.sortingType:hover {
+  background-color: gainsboro;
+  cursor: pointer;
+  padding: 5px;
+}
