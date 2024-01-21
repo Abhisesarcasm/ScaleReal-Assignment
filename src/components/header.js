@@ -33,9 +33,7 @@ const Header = () => {
         `https://swapi.dev/api/films/?format=json&search=${text}`
       );
       let result = response.data.results;
-      console.log(result);
       setMovieData(result);
-      console.log("text", searchText);
       setError(result.length === 0);
     } catch (error) {
       setError(true);
